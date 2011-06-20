@@ -13,8 +13,8 @@ development:
   encoding: unicode
   database: demo3_app_development
   pool: 5
-  username: demo3_app
-  password:
+  username: postgres
+  password: root
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -39,13 +39,13 @@ test:
   encoding: unicode
   database: demo3_app_test
   pool: 5
-  username: demo3_app
-  password:
+  username: postgres
+  password: root
 
 production:
   adapter: postgresql
   encoding: unicode
   database: demo3_app_production
   pool: 5
-  username: demo3_app
-  password:
+  username: postgres
+  password: root
