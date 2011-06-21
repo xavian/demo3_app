@@ -43,9 +43,11 @@ test:
   password: root
 
 production:
-  adapter: postgresql
   encoding: unicode
-  database: demo3_app_production
-  pool: 5
-  username: postgres
-  password: root
+  adapter: postgresql
+  username: pevinamtot
+  port: 5432
+  host: ec2-50-19-226-184.compute-1.amazonaws.com
+  database: pevinamtot
+  password: -QlgAqWCjuhLhdfSIXdk
+
